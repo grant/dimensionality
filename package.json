@@ -4,7 +4,7 @@
   "description": "Find the number of dimensions of an array",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/grant/dimensionality",
   "dependencies": {
     "isarray": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.4.2"
   }
 }

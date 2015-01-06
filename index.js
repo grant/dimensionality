@@ -13,8 +13,8 @@ function dimensionality (array, shallowSearch) {
       dimensions = 1 + dimensionality(array[0], shallowSearch);
     } else {
       dimensions = 1 + array.reduce(function (a, b) {
-        Math.max(a, b);
-      });
+        return Math.max(dimensionality(a), dimensionality(b));
+      }, 0);
     }
   }
 
