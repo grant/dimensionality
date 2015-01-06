@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/grant/dimensionality/issues"
   },
-  "homepage": "https://github.com/grant/dimensionality"
+  "homepage": "https://github.com/grant/dimensionality",
+  "dependencies": {
+    "isarray": "0.0.1"
+  }
 }

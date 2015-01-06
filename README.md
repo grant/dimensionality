@@ -8,7 +8,7 @@ npm install dimensionality --save
 
 ## Usage
 
-`dimensionality(array, [shallowSearch])`
+`dimensionality(array[, shallowSearch = false])`
 
 Returns the maximum array depth of the array, meaning the maximum number of nests in the nested arrays.
 
