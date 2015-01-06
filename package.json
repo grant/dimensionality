@@ -1,0 +1,24 @@
+{
+  "name": "dimensionality",
+  "version": "1.0.0",
+  "description": "Find the number of dimensions of an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grant/dimensionality.git"
+  },
+  "keywords": [
+    "array",
+    "dimension",
+    "nd"
+  ],
+  "author": "Grant Timmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grant/dimensionality/issues"
+  },
+  "homepage": "https://github.com/grant/dimensionality"
+}
