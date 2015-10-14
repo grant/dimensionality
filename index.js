@@ -1,4 +1,4 @@
-var isArray = require('isArray');
+var isArray = require('isarray');
 
 /**
  * Returns the maximum array depth of the array, meaning the maximum number of nests in the nested arrays.
